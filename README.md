@@ -1,18 +1,3 @@
-## Frontend run
-``` bash
-flutter run -d chrome
-```
-
-## Train the model
-``` bash
-python train_model.py
-```
-
-## Backend run
-``` bash
-uvicorn main:app--reload
-```
-
 # Audio Classifier
 
 A modern machine learning application that classifies audio files in real-time. The project features a Flutter web interface for uploading audio files and a FastAPI backend that uses an SVM machine learning model to classify audio into categories such as ambient sounds, birdsong, and music.
